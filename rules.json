@@ -1,0 +1,30 @@
+[
+  {
+    "id": "brute_force",
+    "field": "failed_logins_high",
+    "equals": true,
+    "score": 40,
+    "reason": "brute force"
+  },
+  {
+    "id": "new_admin",
+    "field": "new_admin",
+    "equals": true,
+    "score": 65,
+    "reason": "new admin"
+  },
+  {
+    "id": "audit_disabled",
+    "field": "audit_disabled",
+    "equals": true,
+    "score": 70,
+    "reason": "audit disabled"
+  },
+  {
+    "id": "unusual_login",
+    "field": "unusual_login",
+    "equals": true,
+    "score": 30,
+    "reason": "unusual login"
+  }
+]
